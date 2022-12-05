@@ -1,0 +1,28 @@
+.amanage {
+    height: 437px;
+    background-color: #012f34;
+    background-image: url(/img/bg-amanage.png);
+    background-repeat: no-repeat;
+    padding-top: 140px;
+} 
+
+.amanage__inner{
+    align-items: center;
+}
+
+.amanage__title{
+    font-family: Livvic;
+    padding-top: 9px;
+    color: #fff;
+    width: 920px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    /* letter-spacing: 0px; */
+    text-align: center;
+
+}
+
+.amanage__pic {
+    padding-top: 17px;
+}

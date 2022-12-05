@@ -1,0 +1,51 @@
+.ahero {
+    position: relative;
+    background-image: url(/img/aheroleft.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-color: #014e56;
+    padding-top: 133px;
+    padding-bottom: 250px;
+}
+
+.ahero::after {
+    content:  url(.);
+    position: absolute;
+    right: -10px;
+    bottom: -4px;
+    
+}
+
+.ahero__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ahero__title {
+    width: 350px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.ahero__text {
+    position: relative;
+    width: 730px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-top: 79px;
+}
+
+.ahero__text::before {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+}

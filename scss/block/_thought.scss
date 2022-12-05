@@ -1,0 +1,84 @@
+.thought {
+    position: relative;
+    background-image: url(../img/thougth-top.svg);
+    background-repeat: no-repeat;
+    background-color: #004047;
+    padding-top: 140px;
+    
+}
+
+.thought::after {
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    content: url(../img/thought-bottom.svg);
+}
+.thoughts__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thoughts__title {
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.thoughts__title span {
+    color: #79C8C7;
+}
+
+.thought__body {
+    display: flex;
+    margin-top: 92px; 
+    margin-bottom: 151px;
+    list-style-type: none;
+    
+}
+
+.thought__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+.thought__item::before {
+    content: url(../img/card-bg.svg);
+    position: absolute;
+    top: -36px;
+    right: 38%;
+    z-index: -1;
+}
+
+.thought__text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.thought__human {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    margin-top: 24px;
+}
+
+.thought__prof {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: italic;
+    margin-bottom: 32px;
+    
+}

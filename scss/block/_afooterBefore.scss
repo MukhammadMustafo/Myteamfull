@@ -1,0 +1,42 @@
+.afooterBefore {
+    background-image: url(../img/bg-footer-before.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #F67E7E;
+}
+
+.afooterBefore__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 76px auto;
+}
+
+.afooterBefore__title {
+    display: flex;
+    flex-grow: 3;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+    margin-left: 263px;
+}
+
+.afooterBefore__contact {
+    margin-right: 100px;
+    color:  #012F34;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 33px;
+    border: 2px solid #012F34;
+    border-radius: 30px;
+    transition: all ease 0.3s;
+}
+
+.afooterBefore__contact:hover {
+    color:  #F67E7E;
+    background-color: #04555ee1;
+    border: 2px solid #ecafaf;
+}

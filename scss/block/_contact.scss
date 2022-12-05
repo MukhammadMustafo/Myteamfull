@@ -1,0 +1,98 @@
+.contact {
+    position: relative;
+    background-color: #014E56;
+    background-image: url(/img/ainfo.png);
+    background-repeat: no-repeat;
+    background-position-y: 120px;
+    background-position-x: -10px;
+    padding-top: 133px;
+    padding-bottom: 250px;
+ }   
+ 
+ .contact::after {
+    content: url(/img/contact.png);
+    position: absolute;
+    right: 0px;
+ }
+
+.contact__inner {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.left {
+    display: block;
+}
+
+.contact__title {
+    width: 350px;
+    color: white;
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.contact__text {
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.contact__list {
+    list-style-type: none;
+}
+
+.contact__media {
+    display: flex;
+    
+    align-items: center;
+}
+
+.contact__media--text {
+    width: 445px;
+    padding-left: 23px;
+}
+
+.right {
+    display: block;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 100px;
+
+}
+
+input {
+    width: 445px;
+    height: 35px;
+    background: #014E56;
+    border-color: #014E56;
+    border: none;
+    color: white;
+    opacity: 0.9;
+    outline: none;
+    
+}
+
+button {
+    box-sizing: border-box;
+    position: absolute;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    width: 123px;
+    height: 48px;
+    margin-top: 35px;
+    color: #014E56;
+    font-size: 20px;
+}
